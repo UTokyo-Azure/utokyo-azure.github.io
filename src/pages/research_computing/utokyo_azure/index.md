@@ -60,7 +60,7 @@ title: "UTokyo Azure"
 
 ## データの置き場 (ストレージ) について
 
-### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
+#### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
 
 - Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
 
@@ -70,12 +70,12 @@ title: "UTokyo Azure"
 
 ## FAQ・問い合わせ先
 
-### [FAQ](/research_computing/utokyo_azure/faq/)
+#### [FAQ](/research_computing/utokyo_azure/faq/)
 - 特に多い問い合わせはこちらにまとめてあります．
 
-### [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
+#### [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
 - Microsoft の担当者に問い合わせができます．技術的な問い合わせにはこちらをご活用ください．
 - 問い合わせ手順は[こちらを参考](/research_computing/utokyo_azure/support/)
 
-### UTokyo Azure サポート担当
+#### UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
