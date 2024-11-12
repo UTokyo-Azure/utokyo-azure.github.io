@@ -16,6 +16,7 @@ title: "UTokyo Azure"
 - OpenAI の AI システムをブラウザ経由で利用するサービスや，それをAPI で利用するサービス
 なども提供されています．また，計算機の種類としてもCPU, GPU多種多様なプロセッサやメモリ量を選択でき，様々な用途，分野で利用が可能です．
 
+
 ## 基本方針・目標
 
 運用は情報基盤センター，情報システム部，情報システム本部が行います．提供にあたっての基本方針・目標は以下のとおりです．
@@ -27,13 +28,18 @@ title: "UTokyo Azure"
   - 運用側である規模の標準環境を用意し，標準的なユースケースを環境構築の手間なく利用したいという利用者をサポートする
 - クレジットは1年毎に5年間提供される予定で有限であることから，大学全体での利用総量を制御しその範囲で提供する．年毎に総量を上回った分についてはその利用量に応じた課金を利用者に対して行う
 
+
 ## 使ってみる
 - [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
 - 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の「サブスクリプション（お財布の ようなもの）」を開設する必要があります．そのためにまず東京大学 Azureクラウド利用申請ページ(公開時にリンク)から申し込みをして下さい．
 
+
 ## 利用例
 
-### [仮想マシンの作成](/research_computing/utokyo_azure/virtualmachine/)
+### 仮想マシンの作成
+
+#### [Viatual Machines](/research_computing/utokyo_azure/virtualmachine/)
+
 
 ### AI サービス
 
@@ -43,13 +49,16 @@ title: "UTokyo Azure"
 
 #### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
 
+
 ## データの置き場 (ストレージ) について
 
 ### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
 
 - Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
 
+
 ## 複数人グループでの利用
+
 
 ## FAQ・問い合わせ先
 
