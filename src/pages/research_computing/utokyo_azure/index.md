@@ -40,21 +40,29 @@ title: "UTokyo Azure"
 
 #### [Viatual Machines](/research_computing/utokyo_azure/virtualmachine/)
 
+- 定番である各 Linux ディストリビューションをはじめ，ライセンスを別途お持ちであれば Windows OS を仮想環境で利用することができます．
 
-### AI サービス
+
+### AI サービスの利用
 
 #### Azure Machine Learning
 
+- 機械学習 (ML) プロジェクトのライフサイクルを加速および管理するためのクラウドサービスを提供しています．
+
 #### [Azure OpenAI Studio](/research_computing/utokyo_azure/openai/openai)
 
+- GPT などの OpenAI 技術の利用に特化したサービスを提供しています．
+
 #### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
+
+- Azure が提供している AI サービスを網羅的に提供しています．
 
 
 ## データの置き場 (ストレージ) について
 
 ### [Azure Blob Storage](/research_computing/utokyo_azure/storage/)
 
-- Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
+- Microsoft Azure のサービスの一つである Azure Blob Storage 上に大容量データを保存し，手元のブラウザや計算機からアクセスできます．
 
 
 ## 複数人グループでの利用
