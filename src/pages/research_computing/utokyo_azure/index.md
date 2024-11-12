@@ -35,9 +35,13 @@ title: "UTokyo Azure"
 
 ### [仮想マシンの作成](/research_computing/utokyo_azure/virtualmachine/)
 
-### Azure Machine Learning の利用
+### AI サービス
 
-### [Azure の AI サービス](/research_computing/utokyo_azure/openai/)
+#### Azure Machine Learning
+
+#### [Azure OpenAI Studio](/research_computing/utokyo_azure/openai/openai)
+
+#### [Azure AI Studio](/research_computing/utokyo_azure/openai/azureai)
 
 ## データの置き場 (ストレージ) について
 
