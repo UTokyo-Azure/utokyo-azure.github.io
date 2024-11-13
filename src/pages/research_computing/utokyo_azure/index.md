@@ -4,7 +4,7 @@ title: "UTokyo Azure"
 
 ## UTokyo Azure とは
 
-　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．寄付の詳細については[”こちら”（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
+　2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付が行われることとなりました．[寄付の詳細についてはこちらのリンク（学内のみ）](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)をご覧ください．
 
 　UTokyo Azure は，本寄付による Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 - 普通の Linux や Windows 環境を立ち上げる，いわゆる仮想マシンサービス
@@ -30,8 +30,8 @@ title: "UTokyo Azure"
 
 
 ## 使ってみる
-- [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
-- 実際にUTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の「サブスクリプション（お財布の ようなもの）」を開設する必要があります．そのためにまず東京大学 Azureクラウド利用申請ページ(公開時にリンク)から申し込みをして下さい．
+- [Azure Portal](https://portal.azure.com/)には [UTokyo Account](/utokyo_account) で直ちにログインできます．どのようなサービスが使えるかな どを事前に確認することが出来ます．
+- 実際に UTokyo Azure の利用を開始するには，あなたのアカウントに紐付いた，本サービス専用の「サブスクリプション」を開設する必要があります．そのためにまず東京大学 Azureクラウド利用申請ページ(公開時にリンク)から申し込みをして下さい．
 
 
 ## 利用例
@@ -72,6 +72,7 @@ title: "UTokyo Azure"
 
 #### 利用者を追加する
 
+
 ## Azure を学習する
 
 Microsoft が用意している，より Azure を使いこなすための自己学習コンテンツです．特に記載がない限り無償で利用できます．
@@ -80,6 +81,7 @@ Microsoft が用意している，より Azure を使いこなすための自己
 
 #### [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
 
+
 ## FAQ・問い合わせ先
 
 #### [FAQ](/research_computing/utokyo_azure/faq/)
@@ -87,7 +89,7 @@ Microsoft が用意している，より Azure を使いこなすための自己
 
 #### [Microsoft サポート](https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview)
 - Microsoft の担当者に問い合わせができます．Azure に関する技術的な問い合わせにはこちらをご活用ください．
-- 問い合わせ手順は[”こちら”を参照ください](/research_computing/utokyo_azure/support/)
+- [問い合わせ手順の例はこちらのリンクを参照ください．](/research_computing/utokyo_azure/support/)
 
 #### UTokyo Azure サポート担当
 - utokyo-azure-group@g.ecc.u-tokyo.ac.jp
