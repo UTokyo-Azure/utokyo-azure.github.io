@@ -4,8 +4,7 @@ title: "UTokyo Azure"
 
 ## UTokyo Azure とは
 
-2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．ギフトクレジットの詳細については以下を参照ください．
-- [学内のみ：ギフトクレジットについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)
+2023年8月，東京大学とマイクロソフトは今後の連携に関する基本合意書を締結（[ニュースリリース](https://www.u-tokyo.ac.jp/focus/ja/articles/z1701_00012.html)）し，この合意に基づきMicrosoftから東京大学に対して，MicrosoftのクラウドサービスAzureを利用するためのクレジットという形で寄付（ギフト）が行われることとなりました．ギフトクレジットの詳細については次のリンクを参照ください．　[学内のみ：ギフトクレジットについて](https://univtokyo.sharepoint.com/sites/utokyoportal/wiki/d/UTokyoAzure_Credit.aspx)
 
 UTokyo Azure は，このギフトクレジットによる Microsoft Azure のクラウドサービスを東京大学の構成員に広く利用可能とするサービスの名称です．Microsoft Azure には，
 
