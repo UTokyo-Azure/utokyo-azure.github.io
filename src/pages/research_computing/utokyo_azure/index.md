@@ -79,11 +79,9 @@ title: "UTokyo Azure"
 
 Microsoft が用意している，より Azure を使いこなすための自己学習コンテンツです．特に記載がない限り無償で利用できます．
 
-#### [Microsoft Azure の基礎: Azure のアーキテクチャとサービスについて説明する](https://learn.microsoft.com/ja-jp/training/paths/azure-fundamentals-describe-azure-architecture-services/)
-
-#### [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
-
-#### [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
+- [Microsoft Azure の基礎: Azure のアーキテクチャとサービスについて説明する](https://learn.microsoft.com/ja-jp/training/paths/azure-fundamentals-describe-azure-architecture-services/)
+- [Microsoft Virtual Training Days](https://www.microsoft.com/ja-jp/events/top/training-days)
+- [Microsoft トレーニング：Azure](https://learn.microsoft.com/ja-jp/training/azure/)
 
 ## FAQ・問い合わせ先
 
