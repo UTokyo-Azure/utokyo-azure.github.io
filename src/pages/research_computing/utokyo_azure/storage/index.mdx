@@ -37,8 +37,10 @@ Microsoft Azureのサービスの一つであるAzure Blob Storage上に大容�
 {:#access}
 
 ### コンテナーの作成
-> *この操作はPython等で自動化可能です。例えば”[**こちらのリンク**](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli&pivots=blob-storage-quickstart-scratch/)”
-
+<div class="box">
+この操作はPython等で自動化可能です。例えば以下のリンクを参照ください。
+- [Microsoft Learn: Python 用 Azure Blob Storage クライアント ライブラリ](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli&pivots=blob-storage-quickstart-scratch/)”
+</div>
 ファイルシステムのディレクトリに相当する，コンテナーを作成します． 
 
 ブラウザのAzureトップページから「ストレージアカウント」=>「上で作成したストレージアカウント」=>「概要」=> 「Blob service」へアクセスします． 
@@ -86,7 +88,8 @@ container_name = "<Paste-Your-Container-Name>"
 upload_blob_file(blob_service_client,container_name) 
 ```
 
-- [Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，Python以外の言語の利用に関してはこちらのリンク](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)を参照してください．
+Pythonを用いたデータのダウンロードやファイル一覧の表示，コンテナーの作成などのより高度な利用方法，Python以外の言語の利用に関しては以下のリンクを参照してください．
+- [Microsoft Learn:Azure Blob Storage のドキュメント](https://learn.microsoft.com/ja-jp/azure/storage/blobs/)
 
 
 ## データの共有
