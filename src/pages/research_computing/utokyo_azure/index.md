@@ -32,7 +32,7 @@ title: "UTokyo Azure"
 
 ## 使ってみる
 - [Azure Portal](https://portal.azure.com/)には UTokyo Account で直ちにログインできます．どのようなサービスが使えるかなどは申請前に事前に確認することが出来ます．
-- 実際に UTokyo Azure の利用を開始するには，あなたの UTokyo Account に紐付いた，本サービス専用の[「サブスクリプション」](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[UTokyo Azure新規利用申請ページ](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)から申請をして下さい．
+- 実際に UTokyo Azure の利用を開始するには，あなたの UTokyo Account に紐付いた，本サービス専用の[**サブスクリプション**](/research_computing/utokyo_azure/faq/subscription)を開設する必要があります．そのためにまず[UTokyo Azure新規利用申請ページ](https://utokyo-azure-web.japaneast.cloudapp.azure.com/)から申請をして下さい．
 
 
 ## 利用例
@@ -72,8 +72,8 @@ title: "UTokyo Azure"
 
 ## 複数人グループでの利用
 
-一つのサブスクリプションやリソースを複数人で共有するためには，そのサブスクリプションまたはリソースに共有者の UTokyo Account を必要な権限で付与します．[詳細はこちらを参照ください．](/research_computing/utokyo_azure/group/)
-
+一つのサブスクリプションやリソースを複数人で共有するためには，そのサブスクリプションまたはリソースに共有者の UTokyo Account を必要な権限で付与します．詳細は以下を参照ください．
+- [複数人グループでの利用](/research_computing/utokyo_azure/group/)
 
 ## Azure を学習する
 
