@@ -38,7 +38,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="solution"><p>毎月の大学全体の UTokyo Azure の使用料がギフトクレジットのその月の予定消費額に達するまでは全員が無料で UTokyo Azure を使用できます．</p>
 <p>その月の大学全体の使用料が予定消費額を超えた場合，その月の利用者あたりの無料分が計算されて，その無料分を超過した額を各利用者に負担いただきます．</p>
 <p>また完全に無料で使いたい利用者のためには月初めに無料保証枠を提示します．その月の大学全体の使用料がいくらであっても，各利用者の使用料がこの無料保証額を超えなければ，その利用者の費用負担は発生しません．</p>
-<p>なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．詳しくはFAQの**無料分と無料保証枠**を参照ください．</p></Fragment>
+<p>なお使用料が無料保証枠を超えていても，月末に計算される無料分以下であれば実際には費用負担は発生しません．詳しくはFAQ別項の**無料分と無料保証枠**を参照ください．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -67,7 +67,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションとはなんですか</Fragment>
-  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[サブスクリプションとは（リンク先）](/research_computing/utokyo_azure/faq/subscription)を参照ください．</Fragment>
+  <Fragment slot="solution">Microsoft Azure における契約，課金の単位で，サブスクリプションを管理単位として利用者は様々なサービスを利用することができます．詳細は[「サブスクリプションとは」](/research_computing/utokyo_azure/faq/subscription)を参照ください．</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -87,7 +87,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">申請したサブスクリプションやリソースを研究室のメンバー等で共同利用したい</Fragment>
-  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．[詳細はこちらのリンクを参照ください．](/research_computing/utokyo_azure/group/)</Fragment>
+  <Fragment slot="solution">１つのサブスクリプションやリソースを複数の人間で共同利用したい場合は，共同利用させたいユーザーの UTokyo Account を，**所有者**や**共同作成者**として権限付加する必要があります．この操作は，付与したいサブスクリプションやリソースに**所有者**のアカウントで行う必要があります．詳細は[「複数人グループでの利用」]を参照ください．(/research_computing/utokyo_azure/group/)</Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
@@ -97,14 +97,14 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">サブスクリプションを誤って取り消した場合にサービスやデータは復旧できますか</Fragment>
-  <Fragment slot="solution">不可ではありませんが確実ではなく，可能だった場合も数ヶ月かかる可能性があるため，基本はできないとお考え下さい．継続利用をお考えであれば，新規申請ページのサブスクリプション管理ページから，サブスクリプションの自動停止機能を必ずOFFに切り替えてください．</Fragment>
+  <Fragment slot="solution">原則は不可能とお考え下さい．どうしても取り戻したいデータがある場合は,UTokyo Azure 担当からMicrosoft に復旧の依頼を行いますが，場合により数ヶ月単位の時間を要する可能性があります．長期利用をお考えであれば，新規申請ページのサブスクリプション管理ページから，サブスクリプションの自動停止機能を必ずOFFに切り替えてください．</Fragment>
 </HelpItem>
 
 **無料分と無料保証枠**
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">無料分とはなんですか</Fragment>
-  <Fragment slot="solution"><p>ある月の利用料のうち無料となる分の金額です．各利用者は無料分を超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．</p><p>無料分の額は毎月末に、その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
+  <Fragment slot="solution"><p>ギフトクレジット全体で，ある月の利用料のうち無料となる分の金額です．無料分を超過した場合，各利用者は超過した分の利用料を自身の研究費等から支払わなければなりません．</p><p>具体的には3月末と9月末の半期毎に各月の超過分・余剰分を集計して半期ごとの通算の超過額を計算します．この通算した超過額を情報基盤センターより請求する予定です．</p><p>半期毎の集計で，全体として無料分に収まった場合は，無料保証枠（別項で説明）を超過したとしても無料になります．</p><p>無料分の額は毎月末に，その月の大学全体の使用料やサブスクリプションの数を加味して公平になるように計算されます．各月の使用料は [UTokyo Azure 新規利用申請ページ（学内ネットワークからのアクセスに限定）](http://azure.itc.u-tokyo.ac.jp/)の管理ページから確認できます．</p></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
