@@ -19,6 +19,8 @@ Bastion は、Azure Portal 上で Web ブラウザによるコンソールアク
 - Azure Portal 内に踏み台サーバとして構築され，仮想マシンへのアクセスは Bastion 経由で行う形になります．
 - ssh や RDP によるリモート接続のために仮想マシンにパブリックアクセス用の IP を設定する必要がなくなるので，これらプロトコルの脆弱性を突いた不正アクセスの懸念が無くなります．
 - 端末から Azure Portal 間は，強固な認証を経たブラウザによる https (TLS) 接続内を通信するので、より安全に仮想マシンへのリモートアクセスが可能になります．
+- Bastoin サービスは有料なのでギフトを消費します．1時間でおよそ 0.2 ドルから 0.5 ドル 程度で，5GB以上のデータ送受信には別途通信料がかかります．詳細は以下の URL を参照ください．
+  - [Azure Bastion の価格](https://azure.microsoft.com/ja-jp/pricing/details/azure-bastion/)
 
 ![](img/01_bastion1.png){:.center.border}
 
