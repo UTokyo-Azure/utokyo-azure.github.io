@@ -123,3 +123,15 @@ import HelpItem from "@components/utils/HelpItem.astro";
   <Fragment slot="problem">管理ページでの金額表示が米ドルなのですが</Fragment>
   <Fragment slot="solution">Microsoft のギフトクレジットの取り扱い仕様により米ドルで管理されるため表示も米ドルになります．申請者へ超過分の請求が発生した場合は，財務会計システムによってその時の変換レートで変換され日本円で請求されます．</Fragment>
 </HelpItem>
+
+### サービス
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">AIやVMサービスで使いたいGPU等が選択できない</Fragment>
+  <Fragment slot="solution"><p>リージョンごとに用意されているハードに違いがあります．以下のページから使いたいGPU等がそのリージョンに準備されているかどうかご確認ください．他のリージョンにある場合は，そのリージョンでリソースを再構築してください．</p><ul><li>[Product Availability by Region](https://azure.microsoft.com/ja-JP/explore/global-infrastructure/products-by-region/table)</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">AIやVMサービスで使いたいGPU等はあるが，使える数が少ないかゼロと表示されて使えない．</Fragment>
+  <Fragment slot="solution"><p>仮想マシン資源は乱用されることを防ぐために，初期状態では利用できる上限値（クォータ）は少な目な量しか利用できない仕様になっています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>クォータの申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
+</HelpItem>
