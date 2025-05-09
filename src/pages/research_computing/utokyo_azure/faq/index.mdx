@@ -128,10 +128,10 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">AIやVMサービスで使いたいGPU等が選択できない</Fragment>
-  <Fragment slot="solution"><p>リージョンごとに用意されているハードに違いがあります．以下のページから使いたいGPU等がそのリージョンに準備されているかどうかご確認ください．他のリージョンにある場合は，そのリージョンでリソースを再構築してください．</p><ul><li>[Product Availability by Region](https://azure.microsoft.com/ja-JP/explore/global-infrastructure/products-by-region/table)</li></ul></Fragment>
+  <Fragment slot="solution"><p>リージョンごとに，用意されている資源に違いがあります．以下のページから使いたいGPU等がそのリージョンに準備されているかどうかご確認ください．他のリージョンにある場合は，そのリージョンでリソースを再構築してください．</p><p>以下のページは Azure の全ての資源について記載されていますので，仮想マシン資源を確認したい場合は Product で Virtual Machine の項を参照してください．</p><ul><li>[Product Availability by Region](https://azure.microsoft.com/ja-JP/explore/global-infrastructure/products-by-region/table)</li></ul></Fragment>
 </HelpItem>
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">AIやVMサービスで使いたいGPU等はあるが，使える数が少ないかゼロと表示されて使えない．</Fragment>
-  <Fragment slot="solution"><p>仮想マシン資源は乱用されることを防ぐために，初期状態では利用できる上限値（クォータ）は少な目な量しか利用できない仕様になっています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>クォータの申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
+  <Fragment slot="solution"><p>Azure で利用できる資源は，初期状態では利用できる上限値（クォータ）が少な目に設定されています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>クォータの申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
 </HelpItem>
