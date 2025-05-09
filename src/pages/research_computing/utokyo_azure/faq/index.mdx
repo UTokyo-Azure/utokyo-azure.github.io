@@ -8,7 +8,7 @@ import HelpItem from "@components/utils/HelpItem.astro";
 
 ## FAQ
 
-### サービス全般
+### UTokyo Azure 全般
 
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">どのような目的で利用が可能でしょうか</Fragment>
@@ -134,4 +134,14 @@ import HelpItem from "@components/utils/HelpItem.astro";
 <HelpItem lang="ja" type="details">
   <Fragment slot="problem">AIやVMサービスで使いたいGPU等はあるが，使える数が少ないかゼロと表示されて使えない．</Fragment>
   <Fragment slot="solution"><p>Azure で利用できる資源は，初期状態では利用できる上限値（クォータ）が少な目に設定されています．利用できる量を増やしたい場合は，Microsoftの担当者にクォータ増量の申請をリクエストしてください．</p><p>仮想マシン資源のクォータ申請方法は以下のリンクを参照ください．</p><ul><li>[クォータの管理](/research_computing/utokyo_azure/ai/quota)</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">利用したいサービスを使うと，どのくらいギフトクレジットを消費するのか予め確認したい．</Fragment>
+  <Fragment slot="solution"><p>Microsoft Azure に[料金計算ツール](https://azure.microsoft.com/ja-jp/pricing/calculator/)が用意されていますので，そちらで計算が可能です．ただし，UTokyo Azure の契約にかかる制限により以下の点に注意してください．</p><ul><li>Marketplace（サードパーティ製）のサービスは利用できません．予め計算したサービスが Marketplace サービスでないことをご確認ください．</li></ul><ul><li>UTokyo Azure で利用できる料金形態は**従量課金のみ**になります．予約プランや節約プラン等の割引プランは利用できませんので，入力の際にそれらを選択しないようご注意ください．</li></ul></Fragment>
+</HelpItem>
+
+<HelpItem lang="ja" type="details">
+  <Fragment slot="problem">想定していたよりギフトクレジットの利用料が多く，原因を調べて対応したい</Fragment>
+  <Fragment slot="solution"><p>[UTokyo Azure 新規申請ページの管理画面](https://azure.itc.u-tokyo.ac.jp/list)の一番下に，使用料の内訳詳細が表になっていますので，こちらから各リソースが日毎に消費した使用料が確認いただけます．</p><p>Cost の項で降順にすると，使用料の多い内訳が上に来ますので，そのリソースについて想定通りに設定されているか等を確認ください．</p></Fragment>
 </HelpItem>
